@@ -1,0 +1,22 @@
+Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 22:39:24) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from math import sqrt
+>>> print("input length of s)
+  File "<stdin>", line 1
+    print("input length of s)
+                            ^
+SyntaxError: EOL while scanning string literal
+>>> from math import sqrt
+>>> print("input length of s")
+input length of s
+>>> a=float(input("a:"))
+a:5
+>>> b=float(input("b:"))
+b:6
+>>>
+>>> c=sqrt(a**2+b**2)
+>>> print("the length of the hypotenuse is c",c)
+the length of the hypotenuse is c 7.810249675906654
+>>>
+
+
